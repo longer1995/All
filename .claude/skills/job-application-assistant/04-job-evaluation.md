@@ -85,6 +85,15 @@ python salary_lookup.py "<Company Name>" --json
 
 Not yet configured for Brandon - see `tools/README_SALARY_TOOL.md` if salary data becomes available. Skip this section until then.
 
+### 7. Resume Track Classification (Required before drafting)
+
+Before drafting the CV/cover letter, classify the posting into one of two tracks (see CLAUDE.md "Which Resume Track to Use" for the full mapping):
+
+- **Sales track** (default): Account Executive / individual-contributor sales roles (SaaS AE, enterprise sales rep, BDR/BDE). Draft from `cv/main_example.tex`.
+- **Founder track**: Founder, co-founder, executive, VP/C-level, or general-management roles. Draft from `cv/main_founder.tex`.
+
+If the posting doesn't clearly fit either bucket, default to the sales track and flag the ambiguity to Brandon in the evaluation output.
+
 ## Output Format
 
 Present the evaluation as:
@@ -103,6 +112,8 @@ Present the evaluation as:
 **Overall Score: XX/100** (weighted average of scored dimensions)
 
 ### Verdict: [Strong Fit / Good Fit / Moderate Fit / Weak Fit / Poor Fit]
+
+### Resume Track: [Sales / Founder] - [one-line reason]
 
 ### Key Strengths for This Role
 - [bullet points]

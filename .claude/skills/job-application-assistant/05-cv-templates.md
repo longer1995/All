@@ -8,7 +8,12 @@ All CVs use the moderncv LaTeX package with the "banking" style and "blue" color
 
 **Output file:** `cv/main_<company>.tex`
 **Compile with:** **lualatex** on MiKTeX/TeX Live. pdflatex often fails on modern MiKTeX installs with `fontawesome5` font-expansion errors; lualatex handles the same sources cleanly.
-**Master reference:** `cv/main_example.tex` (comprehensive CV with all competencies, experience, and achievements - use as source when building targeted CVs)
+
+**Master reference - two tracks, pick based on the target role (see CLAUDE.md "Which Resume Track to Use" for the full rule):**
+- `cv/main_example.tex` (**sales track**, default) - for Account Executive / individual-contributor sales roles. Titling: "VP of Sales & Operations" (Vestra Valve), "Head of Sales & Founding Member" (GCDL Defense), "Head of Sales & Co-Founder" (Ammunation). GCDL prime-contractor bullet stays NDA-safe.
+- `cv/main_founder.tex` (**founder track**) - for founder, co-founder, executive, VP/C-level, or general-management roles. Titling: "Executive Vice President" (Vestra Valve), "Founding Member" (GCDL Defense), "Co-Founder" (Ammunation). GCDL prime-contractor bullet names "Colt USA".
+
+If the target role doesn't clearly fit either bucket, default to the sales track and confirm with Brandon before finalizing.
 
 ### Compile command
 
@@ -111,6 +116,9 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 
 **For technical / solution sales roles (industrial, regulated, or complex products):**
 > Full-cycle sales executive with a track record of closing six- and seven-figure contracts for technically complex, highly regulated products, from severe-service industrial valves sold into oil & gas and refining, to a destructive-device-class manufacturing operation built and sold under ATF, DCMA, and ITAR oversight. Combines deal-closing with hands-on operational build-out: sourced vendors, implemented ERP systems, and stood up compliance infrastructure ahead of revenue. Now applying the same full-cycle ownership to AI-native SaaS sales at Arcestra.ai.
+
+**For founder / executive / general-management roles (founder track - draft from `cv/main_founder.tex`):**
+> Founder and executive operator with eight years building and selling regulated and technical businesses from zero, spanning AI-native SaaS, industrial manufacturing, and federally regulated defense manufacturing. Has raised over $4.6M in institutional and growth capital across ventures, closed a 12-year, $3M-annual-minimum exclusive distribution agreement, and built compliance, supply chain, and ERP infrastructure ahead of revenue. Two ventures exited April 2026; now applying full-cycle ownership to enterprise SaaS at Arcestra.ai.
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.

@@ -1,0 +1,186 @@
+%% Master CV - Brandon Longer (FOUNDER / EXECUTIVE TRACK)
+%% Use this version as the source reference for founder-level, executive, and
+%% general (non-sales-IC) roles. For individual-contributor / Account Executive
+%% sales roles, use cv/main_example.tex (sales track) instead.
+%% See .claude/skills/job-application-assistant/05-cv-templates.md for the
+%% full rule on which track to use per role type.
+%%
+%% Compile with: lualatex main_founder.tex
+%% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Force both first and last name AND section headings to render in moderncv
+% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
+% looks inconsistent with the rest of the blue accent scheme.
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Brandon Longer - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.80]{geometry}
+\usepackage{import}
+\usepackage{needspace}
+
+% personal data
+\name{Brandon}{Longer}
+\address{Houston, TX}{}{}
+\phone[mobile]{713.855.8055}
+\email{longer.chase@gmail.com}
+\extrainfo{}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFILE STATEMENT
+% ============================================================
+
+\vspace{6pt}
+\small{Founder and executive operator with eight years building and selling regulated and technical businesses from zero, spanning AI-native SaaS, industrial manufacturing, and federally regulated defense manufacturing. Has raised over \$4.6M in institutional and growth capital across ventures, closed a 12-year, \$3M-annual-minimum exclusive distribution agreement, and built compliance, supply chain, and ERP infrastructure ahead of revenue. Two ventures exited April 2026; now applying full-cycle ownership to enterprise SaaS at Arcestra.ai.}
+
+% ============================================================
+%     CORE COMPETENCIES
+% ============================================================
+
+\section{Core Competencies}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Founder-Level Operating Ownership}: Builds sales, supply chain, compliance, and ERP functions from zero, then personally closes the resulting pipeline.
+
+\item \textbf{Capital Raising}: \$1.65M institutional capital (GCDL Defense), \$3M growth capital (Ammunation).
+
+\item \textbf{Regulated Industry Navigation}: ATF Explosive Manufacturing License, DCMA oversight, ITAR compliance, federal contracting (SAM, CAGE, DFARS).
+
+\item \textbf{Enterprise \& Long-Term Contract Negotiation}: Six- and seven-figure contracts, 12-year exclusive agreements, structured payment terms.
+
+\item \textbf{GTM \& Operations Build-Out}: Multi-channel go-to-market (wholesale, retail, e-commerce, direct), ERP implementation (Steelhead), vendor sourcing, staff hiring and training.
+
+\end{itemize}
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE
+% ============================================================
+
+\section{Professional Experience}
+\vspace{3pt}
+\begin{itemize}
+
+% --- Arcestra.ai ---
+\needspace{5\baselineskip}
+\item{\cventry{May 2025--Present}{Business Development Executive}{Arcestra.ai}{Houston, TX}{}{\vspace{1pt}
+\begin{itemize}
+    \item Sell an AI-native SaaS platform reducing enterprise data center costs; engage FinOps, Engineering, and Operations leaders (COOs, SVPs, Regional Directors) through outbound prospecting and consultative discovery
+    \item Partner with engineering and solution architects on customer-specific implementations, bridging technical and commercial teams
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Vestra Valve ---
+\needspace{5\baselineskip}
+\item{\cventry{2025--2026}{Executive Vice President}{Vestra Valve}{Houston, TX}{}{\vspace{1pt}
+\begin{itemize}
+    \item Closed six-figure contract with Honeywell (Fortune 100) for a new manufacturing facility -- ~4-month cycle navigating engineering, procurement, and operations
+    \item Owned full sales cycle for severe-service products into oil \& gas, refining, mining, and infrastructure; negotiated structured payment terms
+    \item Built supply chain and manufacturing operations from the ground up -- sourced vendors, designed processes, hired and trained staff; implemented Steelhead ERP with vendor team, digitizing manufacturing, inventory, and customer operations
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- GCDL Defense ---
+\needspace{5\baselineskip}
+\item{\cventry{2024--2026 (Exiting)}{Founding Member}{GCDL Defense LLC}{Montana}{}{\vspace{1pt}
+\begin{itemize}
+    \item Built a destructive-device-class manufacturer operating under ATF Explosive Manufacturing License, DCMA oversight, and ITAR compliance
+    \item Raised \$1.65M institutional capital and built operating, compliance, and supply infrastructure ahead of revenue; closed manufacturing contracts with Colt USA, production commenced 2026. Exit planned 2026
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Ammunation ---
+\needspace{5\baselineskip}
+\item{\cventry{2020--Apr 2026 (Exited)}{Co-Founder}{Ammunation LLC}{Houston, TX}{}{\vspace{1pt}
+\begin{itemize}
+    \item Negotiated 12-year exclusive U.S. distribution agreement with Nobel Sport Spain (wholly-owned by Browning) -- \$3M annual minimum closed in ~3 months following multiple Spanish executive site visits; sustained the floor every year through active multi-channel demand management against cyclical shotshell seasons
+    \item Grew Ammunation to ~\$4.8M annual revenue across 75+ accounts; secured civilian channel access to Lake City Army Ammunition Plant and built the early book to \$1.8M in ~6 months before transitioning the business into the Nobel Sport (Browning) exclusive
+    \item Raised \$3M in growth capital; built multi-channel GTM across wholesale, retail, e-commerce, and direct accounts
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- American Munitions ---
+\needspace{5\baselineskip}
+\item{\cventry{2018--Apr 2026 (Exited)}{Co-Founder}{American Munitions}{Texas}{}{\vspace{1pt}
+\begin{itemize}
+    \item Manufactured ammunition under federal contracting certifications (SAM, CAGE, DFARS); secured exclusive supply agreement with sister company Ammunation, maintaining manufacturing/distribution separation
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Seated ---
+\needspace{5\baselineskip}
+\item{\cventry{June 2015--2017}{Business Development Associate}{Seated}{Boston, MA}{}{\vspace{1pt}
+\begin{itemize}
+    \item Recruited out of college; contributed to \$11M seed round, personally sourced \$200K in investor commitments, and conducted vertical evaluation (TAM, business model fit) for new market expansion
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+
+\item{\cventry{2015}{University of Texas PACE Program}{Austin Community College}{}{}{}}
+
+\end{itemize}
+
+% ============================================================
+%     CERTIFICATIONS
+% ============================================================
+
+\section{Certifications}
+\vspace{1pt}
+\begin{itemize}
+\item ATF FFL Type 08 / FEL Type 24 / Explosive Manufacturing / Destructive Device
+\item ITAR compliance, DCMA oversight, Federal Contracting (SAM, CAGE, DFARS), International Brokerage
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES
+% ============================================================
+
+\section{Languages}
+\vspace{1pt}
+\begin{itemize}
+\item English (native).
+\end{itemize}
+
+% ============================================================
+%     REFERENCES
+% ============================================================
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item{Available upon request.}
+\end{itemize}
+
+\end{document}
+</content>

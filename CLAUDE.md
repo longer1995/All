@@ -1,9 +1,9 @@
 # Job Application Assistant for Brandon Longer
 
 <!-- SETUP: This file was populated from documents/cv/ (two resume versions) on 2026-07-07. -->
-<!-- Two resumes were supplied with conflicting details on the GCDL Defense / prime-contractor bullet
-     and the job titles at Vestra Valve and GCDL Defense - see "Open Items" below. The NDA-safe,
-     more-detailed version (Brandon_Longer_Resume_0701.pdf) was used as the source of truth. -->
+<!-- Two resumes were supplied with differing titles/framing for the same roles. Per Brandon's
+     instruction, these are now treated as two intentional tracks rather than a conflict to resolve -
+     see "Which Resume Track to Use" below. -->
 
 ## Role
 This repo is a job application workspace. Claude acts as a career advisor and application assistant for Brandon Longer, helping with:
@@ -93,19 +93,30 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - `.claude/skills/` - AI skill definitions for the application workflow
 - `.agents/skills/` - Job search CLI tools (Danish portals + country-agnostic LinkedIn search)
 
-## Open Items From Resume Cross-Reference
-Two resume versions were supplied (`documents/cv/Brandon_Longer_Resume_0701.pdf` and `..._6.26.pdf`) with conflicting details. Resolve these before relying on the profile for a real application:
-1. **Contact email:** 0701 lists `longer.chase@gmail.com`; 6.26 lists `longer.chasel@gmail.com` (extra "l", likely a typo). Profile uses `longer.chase@gmail.com`.
-2. **Vestra Valve title:** "VP of Sales & Operations" (0701) vs. "Executive Vice President" (6.26).
-3. **GCDL Defense title:** "Head of Sales & Founding Member" (0701) vs. "Founding Member" (6.26).
-4. **GCDL Defense prime-contractor bullet:** 0701 withholds the contractor's name under NDA; 6.26 names "Colt USA" directly. **Use the NDA-safe framing unless Brandon confirms the NDA has lifted or naming the contractor is fine.**
+## Which Resume Track to Use
+Two resume versions were supplied and are both intentional, targeting different role types. **Always classify the target role before drafting** and pull titling/framing from the matching track:
+
+| | **Sales track** (default) | **Founder track** |
+|---|---|---|
+| **Source resume** | `documents/cv/Brandon_Longer_Resume_0701.pdf` | `documents/cv/Brandon_Longer_Resume_6.26.pdf` |
+| **Master CV** | `cv/main_example.tex` | `cv/main_founder.tex` |
+| **Use for** | Account Executive / individual-contributor sales roles (SaaS AE, enterprise sales rep, BDR/BDE, etc.) | Founder, co-founder, executive, VP/C-level, general management, or any role where founder-level ownership is the selling point |
+| **Vestra Valve title** | VP of Sales & Operations | Executive Vice President |
+| **GCDL Defense title** | Head of Sales & Founding Member | Founding Member |
+| **Ammunation title** | Head of Sales & Co-Founder | Co-Founder |
+| **GCDL prime-contractor bullet** | NDA-safe (name withheld) | Names "Colt USA" directly |
+
+If a role doesn't clearly fit either bucket, default to the **sales track** and ask Brandon which framing he prefers.
+
+**Contact email:** Both tracks use `longer.chase@gmail.com`. (One source resume had `longer.chasel@gmail.com` with an extra "l" - a typo, not a track difference.)
 
 ## Workflow for New Job Applications
 1. User provides a job posting (URL or text)
 2. **Always evaluate fit first**: skills match, experience match, behavioral/culture match. Present this assessment to the user before proceeding.
-3. If good fit: create targeted CV (`cv/main_<company>.tex`) and cover letter (`cover_letters/cover_<company>_<role>.tex`)
-4. **Verify both documents** (see Verification Checklist below)
-5. Prepare interview talking points based on the role requirements and your strengths
+3. **Classify sales track vs. founder track** (see "Which Resume Track to Use" above) and draft from the matching master CV
+4. If good fit: create targeted CV (`cv/main_<company>.tex`) and cover letter (`cover_letters/cover_<company>_<role>.tex`)
+5. **Verify both documents** (see Verification Checklist below)
+6. Prepare interview talking points based on the role requirements and your strengths
 
 **Important:** When mentioning agentic coding or AI tooling in CVs/cover letters, explicitly reference **Claude Code** by name.
 
@@ -117,7 +128,7 @@ After creating or updating a CV or cover letter, re-read the generated file and 
 - [ ] Job titles, dates, company names, and locations are correct
 - [ ] Contact details are correct
 - [ ] All company-specific claims (partnerships, products, technology, expansions) have been independently verified via WebFetch/WebSearch - do not trust reviewer agent research without verification
-- [ ] The NDA-sensitive GCDL Defense bullet uses the NDA-safe framing unless Brandon has explicitly said otherwise for this application
+- [ ] The GCDL Defense bullet, Vestra Valve title, GCDL Defense title, and Ammunation title all match the resume track (sales vs. founder) selected for this application - see "Which Resume Track to Use"
 
 ### Targeting
 - [ ] Profile statement / opening paragraph is tailored to the specific role (not generic)
