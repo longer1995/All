@@ -5,6 +5,11 @@
      instruction, these are now treated as two intentional tracks rather than a conflict to resolve -
      see "Which Resume Track to Use" below. -->
 
+> **⚠️ UNCONFIRMED: company name.** Both source resumes and every file in this repo say
+> "GCDL Defense LLC." Brandon referred to it once as "HCDL Defense" in chat. Do not change the
+> company name anywhere until Brandon confirms which is correct - a wrong legal entity name on a
+> CV is a background-check-level problem, not a style choice.
+
 ## Role
 This repo is a job application workspace. Claude acts as a career advisor and application assistant for Brandon Longer, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)

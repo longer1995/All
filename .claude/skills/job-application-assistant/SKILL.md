@@ -55,6 +55,7 @@ When the user provides a job posting (URL or text), follow this workflow:
 | `05-cv-templates.md` | LaTeX CV structure and tailoring rules |
 | `06-cover-letter-templates.md` | LaTeX cover letter structure and tailoring rules |
 | `07-interview-prep.md` | STAR examples, tough questions, roleplay guidelines |
+| `08-terminology-guide.md` | ATS/recruiter red-flag and green-flag phrasing, regulated-industry term reframing |
 
 ---
 

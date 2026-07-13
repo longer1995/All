@@ -58,6 +58,7 @@ Read only the reference files you do not yet have:
 - `.claude/skills/job-application-assistant/03-writing-style.md`
 - `.claude/skills/job-application-assistant/05-cv-templates.md`
 - `.claude/skills/job-application-assistant/06-cover-letter-templates.md`
+- `.claude/skills/job-application-assistant/08-terminology-guide.md` (apply its phrasing rules for regulated-industry terms based on whether the target company itself is defense/industrial)
 
 Also read the most recent existing CV and cover letter files for concrete structural reference (one of each is enough):
 - Read any existing `cv/main_*.tex` file as a LaTeX template reference
@@ -276,9 +277,28 @@ Summarize 3-5 key decisions made to tailor the application:
 
 ### Files Created
 List the files written:
-- `cv/main_<company>.tex`
-- `cover_letters/cover_<company>_<role>.tex`
+- `cv/main_<company>.tex` / `cv/main_<company>.pdf`
+- `cover_letters/cover_<company>_<role>.tex` / `cover_letters/cover_<company>_<role>.pdf`
 
 Tell the user: "Both files are ready for your review. Open them to check the final output before compiling."
 
 Also mention: once they have actually submitted the application, `/outcome <company>` logs it in the tracker and starts the per-application record that `/setup` later uses to calibrate the fit framework.
+
+---
+
+## Step 7: Archive the Application Packet (do this automatically, do not wait for /outcome)
+
+Copy the finished packet into a per-company local folder so Brandon has one clean place to find "the Acme application" instead of hunting across `cv/` and `cover_letters/`.
+
+1. Create `documents/applications/<company>_<role>/` if it does not already exist (lowercase, underscores for spaces, matching the convention in `documents/README.md`).
+2. Copy the compiled PDFs into it with human-readable names:
+   - `documents/applications/<company>_<role>/<Company>_CV.pdf`
+   - `documents/applications/<company>_<role>/<Company>_CoverLetter.pdf`
+   (Use the company's actual display name/casing for `<Company>`, not the lowercase folder-slug form.)
+3. Also copy `job_posting.md` (the posting text captured in Step 0) into the same folder — this is what `/setup` and `/outcome` later read for calibration.
+4. Leave the `.tex`/working `.pdf` copies in `cv/` and `cover_letters/` untouched; the archive folder is an additional copy, not a move.
+
+**Optional: sync to Google Drive.** If the Google Drive MCP tools are available in this session, ask:
+> "Want me to also upload the CV and cover letter to a Google Drive folder for [Company]?"
+
+If yes: search Drive for an existing top-level folder the user designates for job applications (ask once, then remember the folder ID for the rest of the session); create a `<Company>` subfolder under it if one does not exist (`mcp__Google_Drive__create_file` with `mimeType: application/vnd.google-apps.folder`); upload both PDFs into it via `mcp__Google_Drive__create_file` with `base64Content` and the correct `contentMimeType` (`application/pdf`), naming them the same as the local files. Skip silently (no error, just don't offer) if the Drive tools are not present in this session.

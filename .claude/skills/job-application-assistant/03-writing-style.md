@@ -1,5 +1,28 @@
 # Writing Style Guide
 
+## A Note on "AI Slop" and "Humanizing" Tools
+
+Brandon has asked to eliminate generic AI-sounding writing, and mentioned downloading "humanizer" tools to help. Scope note on how this repo handles that request: this guide fixes the actual writing (specific, concrete, varied sentence structure - the stuff that genuinely reads as written by a person who did the work), rather than running the text through a tool designed to defeat AI-content detectors. Those are different problems. Text that is specific and concrete does not read as generic to a hiring manager OR to a detector, because it isn't generic - there's nothing to "humanize" after the fact if the checklist below is followed while drafting. If a paragraph still reads as slop after applying this checklist, the fix is to make it more specific (add the actual number, the actual tool, the actual stakeholder), not to run it through an obfuscation pass.
+
+## Slop Checklist (run on every draft before presenting)
+
+Scan the draft for these patterns. Every hit gets rewritten, not just softened.
+
+**Banned words/phrases** (near-universal LLM tells - cut on sight):
+"spearheaded," "leveraged," "utilized," "orchestrated," "robust," "seamless," "cutting-edge," "dynamic," "results-driven," "proven track record," "passionate about," "excited about the opportunity," "hit the ground running," "drive results," "synergies," "game-changer," "unlock value," "best-in-class," "world-class," "thought leader," "value-add," "circle back," "deep dive," "at the intersection of," "not only... but also," "it's not just X, it's Y."
+
+**Structural tells:**
+- Three-item lists used as a rhetorical crutch ("strategic, scalable, and sustainable") - if the three words don't each carry distinct concrete meaning, cut to one specific claim.
+- Every sentence in a paragraph starting with the same structure (subject-verb-object, over and over) - vary sentence length and opening word.
+- Bullets that all start with the identical verb pattern ("Led the...", "Led the...", "Led the...") - vary the lead-in.
+- Abstract claim with no number, name, or artifact attached ("significantly improved efficiency") - either attach the concrete fact (dollar figure, account name, timeframe) or cut the sentence.
+- Perfectly symmetrical paragraph lengths across a cover letter - real writing is uneven.
+
+**The fix, in order of preference:**
+1. Replace the vague claim with the specific fact already in the profile (a number, a company name, a tool, a timeframe).
+2. If no specific fact exists to back the claim, cut the sentence rather than keep it vague.
+3. Only as a last resort, rephrase with plainer, shorter language - not a synonym swap, an actual simplification.
+
 ## Critical Rules
 
 1. **NO em-dashes (--).**  Use commas, periods, or restructure the sentence instead.

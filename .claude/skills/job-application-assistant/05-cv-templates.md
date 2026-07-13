@@ -15,6 +15,23 @@ All CVs use the moderncv LaTeX package with the "banking" style and "blue" color
 
 If the target role doesn't clearly fit either bucket, default to the sales track and confirm with Brandon before finalizing.
 
+### Title Phrasing Bank (per-application curation, within the two tracks)
+
+The sales/founder tracks above are the two default presets. Within either preset, the **title descriptor** (the part before "& Co-Founder" / "& Founding Member") can flex per application to mirror the target posting's own job-title language, as long as the underlying scope of the role stays truthful. The ownership/founding fact (Co-Founder, Founding Member) never changes - only the descriptor.
+
+<!-- Company name pending confirmation from Brandon: profile currently uses "GCDL Defense LLC" per
+     both source resumes; Brandon referred to it as "HCDL Defense" once. Do not change the name in
+     any file until this is confirmed - see CLAUDE.md. -->
+
+| Company | Truthful ownership fact (never changes) | Sales-track descriptor options (pick to mirror the posting's title) | Founder-track descriptor |
+|---|---|---|---|
+| Ammunation LLC | Co-Founder | "Head of Sales & Co-Founder" (default) | "Co-Founder" |
+| GCDL Defense LLC | Founding Member | "Head of Sales & Founding Member" (default) or "Senior Account Executive & Founding Member" (use when the posting's own title is "Senior Account Executive" or similar IC-sales title, to mirror its language) | "Founding Member" |
+| Vestra Valve | Senior operating/sales leadership | "VP of Sales & Operations" (default) | "Executive Vice President" |
+| American Munitions | Co-Founder | "Co-Founder" (only one descriptor - resumes don't document a separate sales-specific title here) | "Co-Founder" |
+
+**Rule for picking a descriptor:** if the target posting's own title contains language that matches an available option above (e.g., posting title is "Senior Account Executive"), use the matching option - mirroring the posting's title vocabulary is a legitimate, common tailoring practice and helps both ATS keyword matching and human skim-reading. Never invent a new descriptor not listed here without adding it to this table first and running it past the "interview backtrack test" in `03-writing-style.md`.
+
 ### Compile command
 
 ```bash
