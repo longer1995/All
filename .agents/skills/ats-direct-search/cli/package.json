@@ -1,0 +1,20 @@
+{
+  "name": "ats-direct-search-cli",
+  "version": "1.0.0",
+  "description": "CLI for looking up a specific company's open roles on Greenhouse or Lever's public job-board embed APIs — no authentication, zero runtime dependencies. Per-company lookup only, no cross-company keyword search.",
+  "type": "module",
+  "main": "src/cli.ts",
+  "bin": {
+    "ats-direct-search": "src/cli.ts"
+  },
+  "scripts": {
+    "start": "bun run src/cli.ts",
+    "test": "bun test --timeout 30000",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/bun": "latest"
+  }
+}
