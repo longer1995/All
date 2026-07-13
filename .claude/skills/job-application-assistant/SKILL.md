@@ -56,6 +56,7 @@ When the user provides a job posting (URL or text), follow this workflow:
 | `06-cover-letter-templates.md` | LaTeX cover letter structure and tailoring rules |
 | `07-interview-prep.md` | STAR examples, tough questions, roleplay guidelines |
 | `08-terminology-guide.md` | ATS/recruiter red-flag and green-flag phrasing, regulated-industry term reframing |
+| `09-application-qa-bank.md` | Pre-approved answers to recurring application screening questions (salary, authorization, availability, etc.) |
 
 ---
 
@@ -67,3 +68,4 @@ The user may also ask for individual steps without the full workflow:
 - "Write a cover letter for [role] at [company]" - Step 3 only
 - "Help me prepare for an interview at [company]" - Step 4 only
 - "What jobs should I look for?" - Career strategy discussion using profile + evaluation framework
+- "Help me answer this application question" / "What do I put for [screening question]?" - Pull from `09-application-qa-bank.md`; for company-specific questions ("why this company"), draft fresh per the rules in `03-writing-style.md` and `06-cover-letter-templates.md` rather than reusing a canned answer
