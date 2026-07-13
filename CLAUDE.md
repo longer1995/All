@@ -10,6 +10,12 @@
 > company name anywhere until Brandon confirms which is correct - a wrong legal entity name on a
 > CV is a background-check-level problem, not a style choice.
 
+> **📖 THE BIBLE - source of truth.** Brandon's two hand-crafted resumes are the canonical baseline.
+> Their verbatim transcription lives in `.claude/skills/job-application-assistant/00-resume-baseline.md`.
+> Every generated CV, cover letter, and application answer must stay faithful to that content, titles,
+> and framing. Tailoring = re-emphasizing and reordering the baseline material for a specific role;
+> never inventing facts not in it, never drifting from Brandon's wording without a reason he approved.
+
 ## Role
 This repo is a job application workspace. Claude acts as a career advisor and application assistant for Brandon Longer, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
@@ -28,7 +34,9 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - **LinkedIn headline:** "Enterprise Account Executive | B2B SaaS"
 
 ### Education
-- **University of Texas PACE Program** (2015) - Austin Community College
+- **University of Texas PACE Program** (2015) - Austin Community College (matches source resume wording)
+
+> **⚠️ Education is background-check-sensitive (internal note - the resume line above stays as written).** The PACE/ACC line is accurate and does not claim a degree, so it stays exactly as Brandon wrote it. But there is **no conferred bachelor's degree**: on direct yes/no form questions, "Do you have a bachelor's?" is answered **No**, and nothing may state or imply a University of Texas *degree*. Salesforce training is the only other credential (kept in the tools/competencies line per the resume). See `09-application-qa-bank.md` for degree-question answers.
 
 ### Professional Experience
 - **Business Development Executive** (May 2025 - Present) - **Arcestra.ai** (Houston, TX)
@@ -83,14 +91,20 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - Owning a deal end-to-end, from cold outreach to signed contract
 - <!-- Ask Brandon: what else energizes you day-to-day? -->
 
-### Target Sectors
+### Target Sectors & Role Openness
 - AI-native SaaS / enterprise infrastructure (data centers, FinOps): Arcestra.ai and similar
 - Enterprise B2B SaaS more broadly
-- <!-- Ask Brandon: any other sectors or specific target companies to track? -->
+- **Open to a broad range of roles** (confirmed 2026-07): startups, executive-level roles, and non-IC-sales positions - not only Account Executive seats. This is why both resume tracks (sales + founder) are maintained. Cast the net wide.
+
+### Compensation & Priorities (confirmed 2026-07)
+- Two acceptable shapes: **~$140K base with good work-life balance**, OR a **high-intensity / high-comp** role ("no life but a lot of money"). Both are fine.
+- These are **wants, not a hard floor.** The real need is employment - do not let a comp answer screen him out of a role he'd take. See `09-application-qa-bank.md` for how to fill comp fields.
 
 ### Deal-breakers
-<!-- Not yet specified - ask Brandon during next /setup pass -->
-- [ASK: relocation? industries to avoid? comp floor?]
+<!-- Still open - confirm during next /setup pass -->
+- Relocation: [ASK - open to broad roles but relocation willingness not yet confirmed]
+- Work authorization / visa: [ASK - needed for application forms]
+- Notice period / start date: [ASK]
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

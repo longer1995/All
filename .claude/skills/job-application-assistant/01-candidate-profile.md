@@ -18,7 +18,9 @@
 
 | Degree | Period | Institution | Key Topics |
 |--------|--------|-------------|------------|
-| University of Texas PACE Program | 2015 | Austin Community College | Not specified on source resumes |
+| University of Texas PACE Program | 2015 | Austin Community College | One-year Path to Admission through Co-Enrollment (guaranteed UT transfer contingent on a GPA threshold). Matches the source resume wording. |
+
+> **Education note (background-check-sensitive - internal, does not change the resume line above):** The resume wording is accurate and stays as-is - it names the real program and does not claim a degree. But for direct yes/no form questions: Brandon completed the ACC/PACE year and did **not** continue to a conferred degree, so "Do you have a bachelor's degree?" is answered **No**. Never state or imply a University of Texas *degree*. See `09-application-qa-bank.md` for degree-question handling.
 
 ## Professional Experience
 

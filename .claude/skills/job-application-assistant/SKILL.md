@@ -48,6 +48,7 @@ When the user provides a job posting (URL or text), follow this workflow:
 
 | File | Purpose |
 |------|---------|
+| `00-resume-baseline.md` | **THE BIBLE** - verbatim transcription of Brandon's two source resumes; canonical source of truth all output must stay faithful to |
 | `01-candidate-profile.md` | Education, experience, skills, publications, awards |
 | `02-behavioral-profile.md` | Behavioral assessment, strengths, ideal environments |
 | `03-writing-style.md` | Tone, structure, do's and don'ts |
