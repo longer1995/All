@@ -1,4 +1,6 @@
-# ALL FFL Platform — Deep Research Round 2: Executive Summary
+# ALL FFL Platform — Deep Research: Executive Summary
+
+> **Round 3 addendum (2026-08-07):** GTM deep research added — docs 07 (incumbent acquisition channels), 08 (dealer reachability + outbound engine), 09 (vertical-SaaS playbooks incl. cannabis-POS postmortems), and **10 (the synthesized GTM strategy & build plan — start there for "what to change and build")**. Headline GTM findings: ATF-inspection fear is the category's dominant purchase trigger; the NSSF Affinity Program and dealer buying-group preferred-vendor slots are endorsement channels no major incumbent occupies; migration terror is the real moat to attack (audit-verified white-glove migration is the sharpest GTM feature); cold email/SMS are SHAFT-filtered traps and Meta ads are policy-banned — phone + partners (payment ISOs, insurance, compliance consultants) + SEO pain-queries are the real channels; Texas/Houston metro-density founder-led sales is the beachhead; payments comes later in the sequence but with 2+ acquirers contracted early (Dutchie lesson).
 
 > 2026-08-06. Six parallel deep-research passes on the areas where our knowledge was thinnest: competitive landscape, customers, compliance/regulatory requirements, monetization/payments, architecture/implementation, and a compliance-portal teardown. Full reports in this directory (01–06). Everything below is web-sourced with inline citations in the detail docs; figures flagged as unverified should be re-checked against primary sources before use in any pitch material.
 
