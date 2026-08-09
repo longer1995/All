@@ -18,8 +18,12 @@
 - **Willing to relocate?** `NEEDED` (No / Yes / Only for the right role — pick one)
 - **Earliest start date / notice period?** **Immediately** ✅ (confirmed 2026-08)
 
-## Compensation
-- **Expected comp:** flexible. Anchor **$140,000**; open well above that for high-intensity roles. Do not enter a hard floor that could auto-filter — these are wants, not a minimum.
+## Compensation (confirmed 2026-08 — figures are OTE, base+commission)
+- **Floor (won't go below):** $100K OTE — safe, slightly conservative. Use in "minimum" fields.
+- **Target / stated expectation:** **$160K–$170K OTE** — use this in "desired/expected compensation" fields.
+- **Aspirational:** $240K OTE — realistic at enterprise level (e.g. Databricks $272–374K).
+- **Base vs OTE:** these are OTE. Base is typically ~50–60% of OTE, so a "base salary" field gets ~$100K+, not $160K.
+- **Rule:** set filters on OTE. The $100K floor must NOT become a ceiling that screens out $240K enterprise roles.
 
 ## Education (answer exactly this — protects you on background checks)
 - **Highest level:** Some college, no degree
