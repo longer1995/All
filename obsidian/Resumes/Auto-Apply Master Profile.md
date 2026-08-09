@@ -16,7 +16,7 @@
 - **Authorized to work in the US?** `NEEDED` (Yes / No)
 - **Require visa sponsorship now or in future?** `NEEDED` (Yes / No)
 - **Willing to relocate?** `NEEDED` (No / Yes / Only for the right role — pick one)
-- **Earliest start date / notice period?** `NEEDED` (e.g. "2 weeks", "immediately", a date)
+- **Earliest start date / notice period?** **Immediately** ✅ (confirmed 2026-08)
 
 ## Compensation
 - **Expected comp:** flexible. Anchor **$140,000**; open well above that for high-intensity roles. Do not enter a hard floor that could auto-filter — these are wants, not a minimum.
