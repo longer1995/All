@@ -18,12 +18,17 @@
 - **Willing to relocate?** `NEEDED` (No / Yes / Only for the right role — pick one)
 - **Earliest start date / notice period?** **Immediately** ✅ (confirmed 2026-08)
 
-## Compensation (confirmed 2026-08 — figures are OTE, base+commission)
-- **Floor (won't go below):** $100K OTE — safe, slightly conservative. Use in "minimum" fields.
-- **Target / stated expectation:** **$160K–$170K OTE** — use this in "desired/expected compensation" fields.
-- **Aspirational:** $240K OTE — realistic at enterprise level (e.g. Databricks $272–374K).
-- **Base vs OTE:** these are OTE. Base is typically ~50–60% of OTE, so a "base salary" field gets ~$100K+, not $160K.
-- **Rule:** set filters on OTE. The $100K floor must NOT become a ceiling that screens out $240K enterprise roles.
+## Compensation (confirmed 2026-08 — Brandon frames these as BASE)
+- **Floor (won't go below):** **$100K base** — realistic, use in "minimum" fields AND as the search filter.
+- **Target / negotiation anchor:** **$160K–$170K base** — use in "desired compensation" fields. NOTE: this is a senior-level base; most AE roles hit $160–170K as OTE (base ~$110–130K + commission). It's an anchor to negotiate toward, NOT a filter.
+- **Aspirational:** $240K base — leadership/director territory; the dream, not a gate.
+- **Search-filter rule (important):** filter on the **$100K floor**, never the $160K target. Filtering at $160K base hides most AE roles Brandon would actually take. He needs work now and won't be picky — see everything at/above $100K, negotiate up from offers.
+- **Immediate-need override:** short term, a strong AI/SaaS role with $110K base + commission beats holding out for a rare $170K-base seat.
+
+## Priority focus (confirmed 2026-08)
+- **Sectors:** AI and SaaS first (his Arcestra.ai experience is a current, live selling point here).
+- **Location:** Remote strongly preferred ("would be a dream"); Texas (Houston/Austin) also good.
+- **Right now:** needs work — won't be picky. Cast wide at/above the $100K floor while prioritizing AI/SaaS/remote.
 
 ## Education (answer exactly this — protects you on background checks)
 - **Highest level:** Some college, no degree
