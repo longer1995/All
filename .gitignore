@@ -72,3 +72,6 @@ upskill/*.md
 .agents/**/node_modules/
 .agents/**/*.log
 .agents/usage/
+
+# Personal generated deliverables (resumes, packs) - delivered directly, not committed
+documents/deliverables/
