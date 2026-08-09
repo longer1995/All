@@ -12,11 +12,11 @@
 - **LinkedIn:** `NEEDED` (paste your profile URL)
 - **Open to:** Remote, or Texas (Houston / Austin) on-site/hybrid
 
-## Legal / logistics (the 4 that block hands-off)
-- **Authorized to work in the US?** `NEEDED` (Yes / No)
-- **Require visa sponsorship now or in future?** `NEEDED` (Yes / No)
-- **Willing to relocate?** `NEEDED` (No / Yes / Only for the right role — pick one)
-- **Earliest start date / notice period?** **Immediately** ✅ (confirmed 2026-08)
+## Legal / logistics (ALL CONFIRMED 2026-08 ✅)
+- **Authorized to work in the US?** **Yes — US citizen.**
+- **Require visa sponsorship now or in future?** **No.**
+- **Willing to relocate?** **Austin, TX — yes. Elsewhere — only for roles $240K+.** (Default preference stays remote or Houston/Austin.)
+- **Earliest start date / notice period?** **Immediately.**
 
 ## Compensation (confirmed 2026-08 — Brandon frames these as BASE)
 - **Floor (won't go below):** **$100K base** — realistic, use in "minimum" fields AND as the search filter.

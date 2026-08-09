@@ -35,9 +35,14 @@ Home base for Brandon's job search. Updated 2026-07-13.
 - [ ] Draft + submit [[Samsara - Mid-Market AE TOLA]]
 - [ ] Answer the 4 open screening facts (work auth, visa, relocation, notice period) so forms autofill
 
-## Open facts still needed (blocks some application fields)
-- Work authorization (US)? / Visa sponsorship needed?
-- Relocation willingness (beyond Houston/Austin/remote)?
-- Notice period / earliest start date?
-- Company name: **GCDL** vs **HCDL** Defense — unconfirmed, do not change until Brandon says.
+## Confirmed facts (profile complete ✅)
+- **US citizen**, authorized to work, **no sponsorship** needed.
+- **Relocation:** Austin yes; elsewhere only for $240K+ roles. Default remote/Houston/Austin.
+- **Start date:** Immediately.
+- **Comp:** $100K base floor / $160–170K target / $240K reach. Filter on floor.
+- **Focus:** AI & SaaS, remote-preferred.
+
+## Still open (optional enhancement)
+- Extra experience beyond the one-page resume — feed to Claude to fold into both resumes.
+- Company name: **GCDL** vs **HCDL** Defense — unconfirmed, do not change until Brandon confirms.
 </content>
